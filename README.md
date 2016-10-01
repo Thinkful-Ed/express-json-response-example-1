@@ -1,2 +1,5 @@
-# hyperdev-req-resp-ex-2
-Express app demoing JSON responses
+Request and response demo endpoints
+===================================
+
+Simple endpoints to demo requeset and response objects
+in Express applications.
