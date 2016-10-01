@@ -1,5 +1,5 @@
 {
-	"name": "node-req-resp-examples",
+	"name": "hyperdev-req-resp-ex2",
 	"version": "0.0.1",
 	"description": "",
 	"main": "server.js",
@@ -7,15 +7,14 @@
 		"start": "node --harmony --harmony_destructuring server.js"
 	},
 	"dependencies": {
-		"express": "^4.14.0",
-    "body-parser": "^1.15.2"
+		"express": "^4.14.0"
 	},
 	"engines": {
 		"node": "4.4.3"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Thinkful-Ed/node-req-resp-examples"
+		"url": "https://github.com/Thinkful-Ed/hyperdev-req-resp-ex-2"
 	},
 	"keywords": [
 		"thinkful",

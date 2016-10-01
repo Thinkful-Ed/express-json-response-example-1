@@ -4,12 +4,8 @@
 // ===============================================
 
 const express = require('express');
-const bodyParser = require('body-parser');
-
 const app = express();
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
 
 // `res.json` converts JavaScript objects to JSON and
 // appropriately sets the Content-Type header to 
