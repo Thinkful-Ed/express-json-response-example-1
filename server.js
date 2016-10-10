@@ -9,9 +9,10 @@ const app = express();
 
 // `res.json` converts JavaScript objects to JSON and
 // appropriately sets the Content-Type header to 
-// application/json; charset=utf-8
-app.get('/', (req, res) => res.json({foo: 'bar'}).status(200).send());
+// application/json; charset=utf-8 . By default,
+// we'll get a 200 HTTP status code.
+app.get('/', (req, res) => res.json({foo: 'bar'}));
 
-// listen for requests :)
-app.listen(process.env.PORT, () => console.log(
-  `Your app is listening on port ${process.env.PORT}`));
+// listen for requests
+app.listen(process.env.PORT || 8080, () => console.log(
+  `Your app is listening on port ${process.env.PORT || 8080}`));
