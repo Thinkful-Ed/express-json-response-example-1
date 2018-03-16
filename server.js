@@ -1,5 +1,3 @@
-'use strict';
-
 // EXAMPLE 2: Send a JSON object back all API like
 // ===============================================
 
@@ -14,5 +12,5 @@ const app = express();
 app.get('/', (req, res) => res.json({foo: 'bar'}));
 
 // listen for requests
-app.listen(process.env.PORT || 8080, () => console.log(
-  `Your app is listening on port ${process.env.PORT || 8080}`));
+app.listen(process.env.PORT, () => console.log(
+  `Your app is listening on port ${process.env.PORT}`));

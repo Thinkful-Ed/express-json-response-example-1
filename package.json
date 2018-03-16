@@ -1,16 +1,13 @@
 {
-	"name": "express-json-response-example-1",
+	"name": "express-json-response-example",
 	"version": "0.0.1",
 	"description": "",
 	"main": "server.js",
 	"scripts": {
-		"start": "node --harmony --harmony_destructuring server.js"
+		"start": "node server.js"
 	},
   "dependencies": {
     "express": "^4.16.2"
-  },
-  "engines": {
-    "node": "^8.9.4"
   },
 	"repository": {
 		"type": "git",
@@ -19,7 +16,6 @@
 	"keywords": [
 		"thinkful",
 		"node",
-		"hyperdev",
 		"express"
 	],
 	"license": "MIT"
